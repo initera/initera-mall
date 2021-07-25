@@ -1,8 +1,9 @@
 package com.initera.mall.portal.controller;
 
-import com.initera.api.UmsMemberService;
 import com.initera.dto.UmsMemberLoginParamDTO;
 import com.initera.dto.UmsMemberRegisterParamDTO;
+import com.initera.mall.common.results.ResultWrapper;
+import com.initera.service.impl.UmsMemberServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -19,7 +20,7 @@ import org.springframework.web.bind.annotation.*;
 public class UmsMemberController {
 
     @Autowired
-    UmsMemberService umsMemberService;
+    UmsMemberServiceImpl umsMemberService;
 
     @GetMapping("hello")
     public String hello() {
@@ -27,12 +28,15 @@ public class UmsMemberController {
     }
 
     @PostMapping("register")
-    public String register(@RequestBody UmsMemberRegisterParamDTO registerParamDTO) {
-        return umsMemberService.register(registerParamDTO);
+    public ResultWrapper register(@RequestBody UmsMemberRegisterParamDTO registerParamDTO) {
+        umsMemberService.register(registerParamDTO);
+        return ResultWrapper.getSuccessWrapper().data(null).build();
+
     }
 
     @PostMapping("login")
-    public String login(@RequestBody UmsMemberLoginParamDTO loginParamDTO) {
-        return umsMemberService.login(loginParamDTO);
+    public ResultWrapper ResultWrapper(@RequestBody UmsMemberLoginParamDTO loginParamDTO) {
+        String token = umsMemberService.login(loginParamDTO);
+        return ResultWrapper.getFailWrapper().data(token).build();
     }
 }
