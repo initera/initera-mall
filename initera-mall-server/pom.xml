@@ -3,16 +3,19 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>org.springframework.boot</groupId>
-        <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.5.3</version>
-        <relativePath/> <!-- lookup parent from repository -->
+        <artifactId>initera-mall-parent</artifactId>
+        <groupId>com.initera</groupId>
+        <version>1.0-SNAPSHOT</version>
+        <relativePath>../pom.xml</relativePath>
     </parent>
+
     <groupId>com.initera</groupId>
     <artifactId>initera-mall-server</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>initera-mall-server</name>
     <description>Demo project for Spring Boot</description>
+    <packaging>pom</packaging>
+
     <properties>
         <java.version>1.8</java.version>
     </properties>
@@ -34,6 +37,15 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
+    <modules>
+        <module>initera-mall-cart</module>
+        <module>initera-mall-cms</module>
+        <module>initera-mall-dictionary</module>
+        <module>initera-mall-pay</module>
+        <module>initera-mall-pms</module>
+        <module>initera-mall-ums</module>
+        <module>initera-mall-sms</module>
+    </modules>
 
     <build>
         <plugins>

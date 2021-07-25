@@ -14,7 +14,7 @@ public class EncodeAndDecode {
         return DigestUtils.md5DigestAsHex(sourceCode.getBytes(StandardCharsets.UTF_8));
     }
 
-    public static String bcrypt(String sourceCode){
+    public static String bcrypt(String sourceCode) {
 
         return null;
 

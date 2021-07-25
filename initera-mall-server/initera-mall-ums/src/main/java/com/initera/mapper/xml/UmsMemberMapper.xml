@@ -3,7 +3,9 @@
 <mapper namespace="com.initera.mapper.UmsMemberMapper">
 
     <select id="selectByName" parameterType="String" resultType="com.initera.entity.UmsMember">
-        select * from ums_member where username=#{name}
+        select *
+        from ums_member
+        where username = #{name}
     </select>
 
 </mapper>
