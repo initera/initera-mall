@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="initera-mall-pms-api" />
+        <module name="initera-mall-server" />
+        <module name="initera-mall-ums-api" />
+        <module name="initera-mall-cart" />
+        <module name="initera-mall-cms" />
+        <module name="initera-mall-pay-api" />
+        <module name="initera-mall-common-util" />
+        <module name="initera-mall-sms-api" />
+        <module name="initera-mall-ums" />
+        <module name="initera-mall-cms-api" />
+        <module name="initera-mall-api" />
+        <module name="initera-mall-sms" />
+        <module name="initera-mall-oms-api" />
+        <module name="initera-mall-portal-web" />
+        <module name="initera-mall-common-base" />
+        <module name="initera-mall-common" />
+        <module name="initera-mall-manager-web" />
+        <module name="initera-mall-application" />
+        <module name="initera-mall-pms" />
+        <module name="initera-mall-oms" />
+        <module name="initera-mall-dictionary" />
+        <module name="initera-mall-pay" />
+        <module name="initera-mall-generator" />
+        <module name="initera-mall-dictionary-api" />
+        <module name="initera-mall-cart-api" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="initera-mall-api" target="1.8" />
+      <module name="initera-mall-application" target="1.8" />
+      <module name="initera-mall-cart" target="1.8" />
+      <module name="initera-mall-cart-api" target="1.8" />
+      <module name="initera-mall-cms" target="1.8" />
+      <module name="initera-mall-cms-api" target="1.8" />
+      <module name="initera-mall-common" target="1.8" />
+      <module name="initera-mall-common-base" target="1.8" />
+      <module name="initera-mall-common-util" target="1.8" />
+      <module name="initera-mall-dictionary" target="1.8" />
+      <module name="initera-mall-dictionary-api" target="1.8" />
+      <module name="initera-mall-generator" target="1.8" />
+      <module name="initera-mall-manager-web" target="1.8" />
+      <module name="initera-mall-oms" target="1.8" />
+      <module name="initera-mall-oms-api" target="1.8" />
+      <module name="initera-mall-parent" target="1.5" />
+      <module name="initera-mall-pay" target="1.8" />
+      <module name="initera-mall-pay-api" target="1.8" />
+      <module name="initera-mall-pms" target="1.8" />
+      <module name="initera-mall-pms-api" target="1.8" />
+      <module name="initera-mall-portal-web" target="1.8" />
+      <module name="initera-mall-server" target="1.8" />
+      <module name="initera-mall-sms" target="1.8" />
+      <module name="initera-mall-sms-api" target="1.8" />
+      <module name="initera-mall-ums" target="1.8" />
+      <module name="initera-mall-ums-api" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="initera-mall-api" options="-parameters" />
+      <module name="initera-mall-application" options="-parameters" />
+      <module name="initera-mall-cart" options="-parameters" />
+      <module name="initera-mall-cart-api" options="-parameters" />
+      <module name="initera-mall-cms" options="-parameters" />
+      <module name="initera-mall-cms-api" options="-parameters" />
+      <module name="initera-mall-common" options="-parameters" />
+      <module name="initera-mall-common-base" options="-parameters" />
+      <module name="initera-mall-common-util" options="-parameters" />
+      <module name="initera-mall-dictionary" options="-parameters" />
+      <module name="initera-mall-dictionary-api" options="-parameters" />
+      <module name="initera-mall-generator" options="-parameters" />
+      <module name="initera-mall-manager-web" options="-parameters" />
+      <module name="initera-mall-oms" options="-parameters" />
+      <module name="initera-mall-oms-api" options="-parameters" />
+      <module name="initera-mall-pay" options="-parameters" />
+      <module name="initera-mall-pay-api" options="-parameters" />
+      <module name="initera-mall-pms" options="-parameters" />
+      <module name="initera-mall-pms-api" options="-parameters" />
+      <module name="initera-mall-portal-web" options="-parameters" />
+      <module name="initera-mall-server" options="-parameters" />
+      <module name="initera-mall-sms" options="-parameters" />
+      <module name="initera-mall-sms-api" options="-parameters" />
+      <module name="initera-mall-ums" options="-parameters" />
+      <module name="initera-mall-ums-api" options="-parameters" />
+    </option>
+  </component>
+</project>

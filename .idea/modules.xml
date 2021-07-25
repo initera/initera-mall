@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/initera-mall-api/initera-mall-api.iml" filepath="$PROJECT_DIR$/initera-mall-api/initera-mall-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/initera-mall-application/initera-mall-application.iml" filepath="$PROJECT_DIR$/initera-mall-application/initera-mall-application.iml" />
+      <module fileurl="file://$PROJECT_DIR$/initera-mall-server/initera-mall-cart/initera-mall-cart.iml" filepath="$PROJECT_DIR$/initera-mall-server/initera-mall-cart/initera-mall-cart.iml" />
+      <module fileurl="file://$PROJECT_DIR$/initera-mall-api/initera-mall-cart-api/initera-mall-cart-api.iml" filepath="$PROJECT_DIR$/initera-mall-api/initera-mall-cart-api/initera-mall-cart-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/initera-mall-server/initera-mall-cms/initera-mall-cms.iml" filepath="$PROJECT_DIR$/initera-mall-server/initera-mall-cms/initera-mall-cms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/initera-mall-api/initera-mall-cms-api/initera-mall-cms-api.iml" filepath="$PROJECT_DIR$/initera-mall-api/initera-mall-cms-api/initera-mall-cms-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/initera-mall-common/initera-mall-common.iml" filepath="$PROJECT_DIR$/initera-mall-common/initera-mall-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/initera-mall-common/initera-mall-common-base/initera-mall-common-base.iml" filepath="$PROJECT_DIR$/initera-mall-common/initera-mall-common-base/initera-mall-common-base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/initera-mall-common/initera-mall-common-util/initera-mall-common-util.iml" filepath="$PROJECT_DIR$/initera-mall-common/initera-mall-common-util/initera-mall-common-util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/initera-mall-server/initera-mall-dictionary/initera-mall-dictionary.iml" filepath="$PROJECT_DIR$/initera-mall-server/initera-mall-dictionary/initera-mall-dictionary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/initera-mall-api/initera-mall-dictionary-api/initera-mall-dictionary-api.iml" filepath="$PROJECT_DIR$/initera-mall-api/initera-mall-dictionary-api/initera-mall-dictionary-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/initera-mall-generator/initera-mall-generator.iml" filepath="$PROJECT_DIR$/initera-mall-generator/initera-mall-generator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/initera-mall-application/initera-mall-manager-web/initera-mall-manager-web.iml" filepath="$PROJECT_DIR$/initera-mall-application/initera-mall-manager-web/initera-mall-manager-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/initera-mall-server/initera-mall-oms/initera-mall-oms.iml" filepath="$PROJECT_DIR$/initera-mall-server/initera-mall-oms/initera-mall-oms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/initera-mall-api/initera-mall-oms-api/initera-mall-oms-api.iml" filepath="$PROJECT_DIR$/initera-mall-api/initera-mall-oms-api/initera-mall-oms-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/initera-mall-parent.iml" filepath="$PROJECT_DIR$/initera-mall-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/initera-mall-server/initera-mall-pay/initera-mall-pay.iml" filepath="$PROJECT_DIR$/initera-mall-server/initera-mall-pay/initera-mall-pay.iml" />
+      <module fileurl="file://$PROJECT_DIR$/initera-mall-api/initera-mall-pay-api/initera-mall-pay-api.iml" filepath="$PROJECT_DIR$/initera-mall-api/initera-mall-pay-api/initera-mall-pay-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/initera-mall-server/initera-mall-pms/initera-mall-pms.iml" filepath="$PROJECT_DIR$/initera-mall-server/initera-mall-pms/initera-mall-pms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/initera-mall-api/initera-mall-pms-api/initera-mall-pms-api.iml" filepath="$PROJECT_DIR$/initera-mall-api/initera-mall-pms-api/initera-mall-pms-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/initera-mall-application/initera-mall-portal-web/initera-mall-portal-web.iml" filepath="$PROJECT_DIR$/initera-mall-application/initera-mall-portal-web/initera-mall-portal-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/initera-mall-server/initera-mall-server.iml" filepath="$PROJECT_DIR$/initera-mall-server/initera-mall-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/initera-mall-server/initera-mall-sms/initera-mall-sms.iml" filepath="$PROJECT_DIR$/initera-mall-server/initera-mall-sms/initera-mall-sms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/initera-mall-api/initera-mall-sms-api/initera-mall-sms-api.iml" filepath="$PROJECT_DIR$/initera-mall-api/initera-mall-sms-api/initera-mall-sms-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/initera-mall-server/initera-mall-ums/initera-mall-ums.iml" filepath="$PROJECT_DIR$/initera-mall-server/initera-mall-ums/initera-mall-ums.iml" />
+      <module fileurl="file://$PROJECT_DIR$/initera-mall-api/initera-mall-ums-api/initera-mall-ums-api.iml" filepath="$PROJECT_DIR$/initera-mall-api/initera-mall-ums-api/initera-mall-ums-api.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,4 @@
+com\initera\mall\ums\api\UmsMemberService.class
+com\initera\mall\ums\dto\UmsMemberRegisterParamDTO.class
+com\initera\mall\ums\entity\UmsMember.class
+com\initera\mall\ums\IniteraMallUmsApiApplication.class

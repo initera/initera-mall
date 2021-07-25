@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/initera-mall-server/pom.xml" />
+        <option value="$PROJECT_DIR$/initera-mall-common/pom.xml" />
+        <option value="$PROJECT_DIR$/initera-mall-api/pom.xml" />
+        <option value="$PROJECT_DIR$/initera-mall-api/initera-mall-ums-api/pom.xml" />
+        <option value="$PROJECT_DIR$/initera-mall-api/initera-mall-cart-api/pom.xml" />
+        <option value="$PROJECT_DIR$/initera-mall-api/initera-mall-cms-api/pom.xml" />
+        <option value="$PROJECT_DIR$/initera-mall-api/initera-mall-dictionary-api/pom.xml" />
+        <option value="$PROJECT_DIR$/initera-mall-api/initera-mall-pay-api/pom.xml" />
+        <option value="$PROJECT_DIR$/initera-mall-api/initera-mall-oms-api/pom.xml" />
+        <option value="$PROJECT_DIR$/initera-mall-api/initera-mall-sms-api/pom.xml" />
+        <option value="$PROJECT_DIR$/initera-mall-api/initera-mall-pms-api/pom.xml" />
+        <option value="$PROJECT_DIR$/initera-mall-application/initera-mall-manager-web/pom.xml" />
+        <option value="$PROJECT_DIR$/initera-mall-common/initera-mall-common-base/pom.xml" />
+        <option value="$PROJECT_DIR$/initera-mall-common/initera-mall-common-util/pom.xml" />
+        <option value="$PROJECT_DIR$/initera-mall-server/initera-mall-cart/pom.xml" />
+        <option value="$PROJECT_DIR$/initera-mall-server/initera-mall-cms/pom.xml" />
+        <option value="$PROJECT_DIR$/initera-mall-server/initera-mall-dictionary/pom.xml" />
+        <option value="$PROJECT_DIR$/initera-mall-server/initera-mall-oms/pom.xml" />
+        <option value="$PROJECT_DIR$/initera-mall-server/initera-mall-pay/pom.xml" />
+        <option value="$PROJECT_DIR$/initera-mall-server/initera-mall-pms/pom.xml" />
+        <option value="$PROJECT_DIR$/initera-mall-server/initera-mall-sms/pom.xml" />
+        <option value="$PROJECT_DIR$/initera-mall-server/initera-mall-ums/pom.xml" />
+        <option value="$PROJECT_DIR$/initera-mall-generator/pom.xml" />
+        <option value="$PROJECT_DIR$/initera-mall-application/pom.xml" />
+        <option value="$PROJECT_DIR$/initera-mall-application/initera-mall-portal-web/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
+</project>
