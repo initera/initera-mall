@@ -7,6 +7,8 @@ import com.initera.service.impl.UmsMemberServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+import javax.validation.Valid;
+
 /**
  * <p>
  * 后台用户表 前端控制器
@@ -35,7 +37,7 @@ public class UmsMemberController {
     }
 
     @PostMapping("login")
-    public ResultWrapper ResultWrapper(@RequestBody UmsMemberLoginParamDTO loginParamDTO) {
+    public ResultWrapper ResultWrapper(@RequestBody @Valid UmsMemberLoginParamDTO loginParamDTO) {
         String token = umsMemberService.login(loginParamDTO);
         return ResultWrapper.getFailWrapper().data(token).build();
     }
