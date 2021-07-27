@@ -4,6 +4,7 @@ import com.initera.api.UmsMemberService;
 import com.initera.dto.UmsMemberLoginParamDTO;
 import com.initera.dto.UmsMemberRegisterParamDTO;
 import com.initera.entity.UmsMember;
+import com.initera.mall.uitl.JwtUtil;
 import com.initera.mapper.UmsMemberMapper;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -46,6 +47,6 @@ public class UmsMemberServiceImpl implements UmsMemberService {
         } else {
             return "用户不存在";
         }
-        return "token";
+        return JwtUtil.createRequestToken(loginParamDTO.getUsername());
     }
 }
