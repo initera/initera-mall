@@ -2,6 +2,8 @@ package com.initera.mall.portal.controller;
 
 import com.initera.dto.UmsMemberLoginParamDTO;
 import com.initera.dto.UmsMemberRegisterParamDTO;
+import com.initera.entity.UmsMember;
+import com.initera.mall.common.anotations.TokenCheck;
 import com.initera.mall.common.results.ResultWrapper;
 import com.initera.service.impl.UmsMemberServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -31,14 +33,19 @@ public class UmsMemberController {
 
     @PostMapping("register")
     public ResultWrapper register(@RequestBody UmsMemberRegisterParamDTO registerParamDTO) {
-        umsMemberService.register(registerParamDTO);
-        return ResultWrapper.getSuccessWrapper().data(null).build();
+        return umsMemberService.register(registerParamDTO);
 
     }
 
     @PostMapping("login")
-    public ResultWrapper ResultWrapper(@RequestBody @Valid UmsMemberLoginParamDTO loginParamDTO) {
-        String token = umsMemberService.login(loginParamDTO);
-        return ResultWrapper.getFailWrapper().data(token).build();
+    public ResultWrapper login(@RequestBody @Valid UmsMemberLoginParamDTO loginParamDTO) {
+        return umsMemberService.login(loginParamDTO);
+    }
+
+    @PostMapping("editUmsInfo")
+    @TokenCheck
+    public ResultWrapper editUmsInfo(@RequestBody UmsMember umsMember) {
+        return umsMemberService.eidt(umsMember);
+
     }
 }

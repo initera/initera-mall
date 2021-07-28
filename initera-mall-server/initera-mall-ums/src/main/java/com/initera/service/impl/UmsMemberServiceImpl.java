@@ -4,6 +4,7 @@ import com.initera.api.UmsMemberService;
 import com.initera.dto.UmsMemberLoginParamDTO;
 import com.initera.dto.UmsMemberRegisterParamDTO;
 import com.initera.entity.UmsMember;
+import com.initera.mall.common.results.ResultWrapper;
 import com.initera.mall.uitl.JwtUtil;
 import com.initera.mapper.UmsMemberMapper;
 import org.springframework.beans.BeanUtils;
@@ -29,24 +30,31 @@ public class UmsMemberServiceImpl implements UmsMemberService {
     PasswordEncoder passwordEncoder;
 
     @Override
-    public String register(UmsMemberRegisterParamDTO registerParam) {
+    public ResultWrapper register(UmsMemberRegisterParamDTO registerParam) {
         UmsMember umsMember = new UmsMember();
         BeanUtils.copyProperties(registerParam, umsMember);
         umsMemberMapper.insert(umsMember);
-        return "success";
+        return ResultWrapper.getSuccessWrapper().data("success").build();
     }
 
     @Override
-    public String login(UmsMemberLoginParamDTO loginParamDTO) {
+    public ResultWrapper login(UmsMemberLoginParamDTO loginParamDTO) {
         UmsMember umsMember = umsMemberMapper.selectByName(loginParamDTO.getUsername());
         if (null != umsMember) {
             String password = umsMember.getPassword();
             if (!passwordEncoder.matches(loginParamDTO.getPassword(), password)) {
-                return "密码不正确";
+                return ResultWrapper.getFailWrapper().data("密码不正确").build();
             }
         } else {
-            return "用户不存在";
+            return ResultWrapper.getFailWrapper().data("用户不存在").build();
         }
-        return JwtUtil.createRequestToken(loginParamDTO.getUsername());
+
+        return ResultWrapper.getSuccessWrapper().data(JwtUtil.createRequestToken(loginParamDTO.getUsername())).build();
+    }
+
+    @Override
+    public ResultWrapper eidt(UmsMember umsMember) {
+        umsMemberMapper.updateById(umsMember);
+        return ResultWrapper.getSuccessWrapper().build();
     }
 }

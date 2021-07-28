@@ -2,6 +2,8 @@ package com.initera.api;
 
 import com.initera.dto.UmsMemberLoginParamDTO;
 import com.initera.dto.UmsMemberRegisterParamDTO;
+import com.initera.entity.UmsMember;
+import com.initera.mall.common.results.ResultWrapper;
 
 /**
  * <p>
@@ -18,7 +20,7 @@ public interface UmsMemberService {
      *
      * @return 注册状态
      */
-    String register(UmsMemberRegisterParamDTO registerParam);
+    ResultWrapper register(UmsMemberRegisterParamDTO registerParam);
 
     /**
      * 用户登录
@@ -26,5 +28,10 @@ public interface UmsMemberService {
      * @param loginParamDTO 登录参数
      * @return 登录状态
      */
-    String login(UmsMemberLoginParamDTO loginParamDTO);
+    ResultWrapper login(UmsMemberLoginParamDTO loginParamDTO);
+
+    /**
+     * 编辑用户信息
+     */
+    ResultWrapper eidt(UmsMember umsMember);
 }
